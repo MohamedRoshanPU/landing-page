@@ -21,7 +21,7 @@ function Header() {
     <div>
       <div className="header-main-container">
         <div className="header-container">
-          <Link to='/'><div className="company-logo">
+          <Link to='/landing-page'><div className="company-logo">
             <img src={logo} alt="logo" />
           </div>
           </Link>
