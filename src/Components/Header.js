@@ -21,18 +21,18 @@ function Header() {
     <div>
       <div className="header-main-container">
         <div className="header-container">
-          <Link to='landing-page'><div className="company-logo">
+          <Link to='/'><div className="company-logo">
             <img src={logo} alt="logo" />
           </div>
           </Link>
           <div className={link ? "links active" : "links"}>
-            <Link to='landing-page/features' className="links-li" onClick={closeMenu}>
+            <Link to='/features' className="links-li" onClick={closeMenu}>
               Features
             </Link>
-            <Link to='landing-page/projects' className="links-li" onClick={closeMenu}>
+            <Link to='/projects' className="links-li" onClick={closeMenu}>
               Projects
             </Link>
-            <Link to='landing-page/team' className="links-li" onClick={closeMenu}>
+            <Link to='/team' className="links-li" onClick={closeMenu}>
               Team
             </Link>
 
