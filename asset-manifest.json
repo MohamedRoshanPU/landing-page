@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/landing-page/static/css/main.420fbae6.css",
+    "main.js": "/landing-page/static/js/main.48e7e03d.js",
+    "static/media/banner-image.svg": "/landing-page/static/media/banner-image.e8eb5bb7e60d5d165fd8705bc1a990b0.svg",
+    "static/media/img3.jpg": "/landing-page/static/media/img3.bc1f31d9fa7fa2102f06.jpg",
+    "static/media/img2.jpg": "/landing-page/static/media/img2.e4efcb55c8db0847bf77.jpg",
+    "static/media/img1.jpg": "/landing-page/static/media/img1.3d0985c01656c8e622d9.jpg",
+    "static/media/img4.jpg": "/landing-page/static/media/img4.e92f3b9b6d396a167ac5.jpg",
+    "static/media/logo6.svg": "/landing-page/static/media/logo6.b972b24eb7c242b1d862718348d3f140.svg",
+    "static/media/logo2.svg": "/landing-page/static/media/logo2.982966d42be47b6a207f9fe2f7eb5a94.svg",
+    "static/media/logo1.svg": "/landing-page/static/media/logo1.4fe06cc4aec4b17318501577d34a4029.svg",
+    "static/media/data.svg": "/landing-page/static/media/data.2e2fd8cb5c303feed96a5341cf6b0047.svg",
+    "static/media/logo4.svg": "/landing-page/static/media/logo4.db3d272182276332281b16f2de661c09.svg",
+    "static/media/right.svg": "/landing-page/static/media/right.a85577ea0f07f7fe0cb0f2026b15a719.svg",
+    "static/media/left.svg": "/landing-page/static/media/left.91d99f437d9df8323841dd89e3ef17fe.svg",
+    "static/media/segment.svg": "/landing-page/static/media/segment.3979d56a66a3c9064cd2836bcf0c5688.svg",
+    "static/media/insta.svg": "/landing-page/static/media/insta.2d038711f8b7827399be4b6e945cdfa8.svg",
+    "static/media/logo3.svg": "/landing-page/static/media/logo3.08c968c6674614421a622042992b6afa.svg",
+    "static/media/dashboard.svg": "/landing-page/static/media/dashboard.38e370bcc4a0affb320b47ba789f1283.svg",
+    "static/media/whatsapp.svg": "/landing-page/static/media/whatsapp.b6b6c0ea53e9498e06a4ef4958498553.svg",
+    "static/media/logo5.svg": "/landing-page/static/media/logo5.9690965e959c6890ffe709b4dd0890fc.svg",
+    "static/media/linkedin.svg": "/landing-page/static/media/linkedin.d9e7f39d0ec273509481381ac48c0d06.svg",
+    "index.html": "/landing-page/index.html",
+    "static/media/facebook.svg": "/landing-page/static/media/facebook.23a92375dcc7e7ba8b5e222463c02b02.svg",
+    "static/media/menu.svg": "/landing-page/static/media/menu.85869a4327e5e240c0ab6c2cc5971bea.svg",
+    "static/media/close.svg": "/landing-page/static/media/close.0e428699a29fd3ccf74404075deb3d8d.svg",
+    "main.420fbae6.css.map": "/landing-page/static/css/main.420fbae6.css.map",
+    "main.48e7e03d.js.map": "/landing-page/static/js/main.48e7e03d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.420fbae6.css",
+    "static/js/main.48e7e03d.js"
+  ]
+}
