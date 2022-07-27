@@ -1,0 +1,125 @@
+.footer-main-container {
+  width: 100%;
+  height: auto;
+  background-color: rgba(7, 6, 52, 1);
+  margin-top: 170px;
+}
+
+.footer-container {
+  padding: 50px 0px;
+  margin: 0px 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-company {
+  width: 310px;
+}
+
+.about-company img {
+  margin-bottom: 20px;
+}
+
+.about-company p {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 1);
+  line-height: 26px;
+}
+
+.products .heading {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: white;
+}
+
+.heading {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: white;
+}
+
+.products .sub-heading {
+  margin-bottom: 15px;
+  font-weight: 300;
+  font-size: 18px;
+  font-style: italic;
+  color: white;
+}
+
+.social-medias {
+  display: flex;
+  gap: 15px;
+}
+
+.facebook,
+.instagram,
+.linkedin,
+.whatsapp {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 884px) {
+  .footer-main-container {
+    margin-top: 90px;
+  }
+
+  .footer-container {
+    margin: 0px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 50px;
+  }
+
+  .about-company {
+    width: 270px;
+  }
+
+  .about-company img {
+    margin-bottom: 17px;
+  }
+
+  .products .heading {
+    font-size: 22px;
+  }
+
+  .heading {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .social-medias {
+    display: flex;
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .footer-main-container {
+    margin-top: 70px;
+  }
+
+  .footer-container {
+    margin: 0px 20px;
+    flex-direction: column;
+    row-gap: 35px;
+  }
+
+  .about-company {
+    width: 100%;
+  }
+
+  .social-medias {
+    display: flex;
+    gap: 15px;
+  }
+}

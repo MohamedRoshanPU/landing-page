@@ -1,0 +1,149 @@
+.features-main-container {
+  width: 100%;
+  height: auto;
+  margin-top: 170px;
+}
+
+.features-container {
+  margin: 0px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.features-heading {
+  width: 755px;
+  text-align: center;
+}
+
+.features-heading h2 {
+  font-size: 38px;
+  font-weight: 900;
+  margin-bottom: 26px;
+  color: white;
+}
+
+.features-heading p {
+  color: #cbc2c2;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.feature-cards {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.feature-card {
+  padding: 40px 25px;
+  width: 359px;
+  height: auto;
+  text-align: center;
+  background-color: #35146c4d;
+  border-radius: 12px;
+  transition: all .5s ease-in-out;
+}
+
+.feature-card:hover{
+    background-color: #511ea24d;
+}
+
+.feature-card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+.feature-card h3 {
+  font-size: 24px;
+  font-weight: 900;
+  color: white;
+}
+
+.feature-card p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #cbc2c2;
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 885px) {
+  .features-main-container {
+    margin-top: 90px;
+  }
+
+  .features-container {
+    margin: 0px 30px;
+  }
+
+  .features-heading {
+    width: 555px;
+  }
+
+  .features-heading h2 {
+    font-size: 32px;
+  }
+
+  .feature-cards {
+    width: 100%;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .feature-card {
+    padding: 40px 25px;
+    width: 340px;
+  }
+
+  .feature-card img {
+    margin-bottom: 28px;
+  }
+}
+
+@media screen and (max-width:1280px){
+  .feature-cards {
+    width: 100%;
+    justify-content: center;
+    gap: 80px  80px;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+  .features-main-container {
+    margin-top: 70px;
+  }
+
+  .features-container {
+    margin: 0px 20px;
+  }
+
+  .features-heading {
+    width: 100%;
+  }
+
+  .features-heading h2 {
+    font-size: 26px;
+  }
+
+  .feature-cards {
+    width: 100%;
+    gap: 30px;
+  }
+
+  .feature-card {
+    padding: 40px 25px;
+    width: 100%;
+  }
+
+  .feature-card img {
+    margin-bottom: 24px;
+  }
+}

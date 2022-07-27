@@ -1,0 +1,21 @@
+export const Images = [
+    {
+        image:"https://keepthinkingbig.com/wp-content/uploads/2015/05/Teams.jpg"
+    },{
+        image:"https://www.teamworkandleadership.com/wp-content/uploads/2012/02/effective-team-communication-1.jpg"
+    },{
+        image:"https://www.jobboardfinder.com/news/wp-content/uploads/2021/07/team.jpg"
+    },{
+        image:"https://keepthinkingbig.com/wp-content/uploads/2015/05/Teams.jpg"
+    },{
+        image:"https://www.teamworkandleadership.com/wp-content/uploads/2012/02/effective-team-communication-1.jpg"
+    },{
+        image:"https://www.jobboardfinder.com/news/wp-content/uploads/2021/07/team.jpg"
+    },{
+        image:"https://keepthinkingbig.com/wp-content/uploads/2015/05/Teams.jpg"
+    },{
+        image:"https://www.teamworkandleadership.com/wp-content/uploads/2012/02/effective-team-communication-1.jpg"
+    },{
+        image:"https://www.jobboardfinder.com/news/wp-content/uploads/2021/07/team.jpg"
+    }
+]

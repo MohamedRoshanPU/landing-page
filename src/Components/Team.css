@@ -1,0 +1,140 @@
+.team-main-container {
+  width: 100%;
+  height: auto;
+  margin-top: 170px;
+}
+
+.team-container {
+  margin: 0px 80px;
+  display: flex;
+  height: auto;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.team-container h2 {
+  font-size: 38px;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 55px;
+}
+
+.team-image {
+  width: 1156px;
+  height: 748px;
+  position: relative;
+}
+
+.images img {
+  width: 100%;
+  height: 100%;
+}
+
+.images {
+  transform: translateY(-20px);
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+
+.active {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  transform: translateY(0px);
+  transition: all 1s ease-in-out;
+}
+
+.left-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: rgba(42, 0, 105, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.right-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: rgba(42, 0, 105, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: -47px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.left-button img,
+.right-button img {
+  width: 9px;
+  height: 17px;
+}
+
+@media screen and (max-width: 884px) {
+  .team-main-container {
+    margin-top: 90px;
+  }
+
+  .team-container {
+    margin: 0px 30px;
+  }
+
+  .team-container h2 {
+    font-size: 28px;
+    margin-bottom: 45px;
+  }
+
+  .team-image {
+    width: 100%;
+    height: 548px;
+  }
+
+  .left-button {
+    left: 30px;
+  }
+
+  .right-button {
+    right: -20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .team-main-container {
+    margin-top: 70px;
+  }
+
+  .team-container {
+    margin: 0px 20px;
+  }
+
+  .team-container h2 {
+    font-size: 26px;
+    margin-bottom: 35px;
+  }
+
+  .left-button {
+    width: 40px;
+    height: 40px;
+    left: 30px;
+  }
+
+  .right-button {
+    width: 40px;
+    height: 40px;
+    right: -10px;
+  }
+
+  .team-image {
+    width: 100%;
+    height: 295px;
+  }
+}
