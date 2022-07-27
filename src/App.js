@@ -10,7 +10,7 @@ import Team from "./Components/Team";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="landing-page">
         <Header />
         <Routes>
           <Route  path="/" element={<Home />} />
