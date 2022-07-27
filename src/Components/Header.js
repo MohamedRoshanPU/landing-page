@@ -4,7 +4,6 @@ import React, { useState } from "react";
 import "./Header.css";
 import close from "./close.svg";
 import Button from "./Button";
-import { Link } from "react-router-dom";
 
 function Header() {
   const [link, setLinks] = useState(false);
@@ -21,20 +20,20 @@ function Header() {
     <div>
       <div className="header-main-container">
         <div className="header-container">
-          <Link to='/'><div className="company-logo">
+          <div className="company-logo">
             <img src={logo} alt="logo" />
           </div>
-          </Link>
+          
           <div className={link ? "links active" : "links"}>
-            <Link to='features' className="links-li" onClick={closeMenu}>
+            <li className="links-li" >
               Features
-            </Link>
-            <Link to='projects' className="links-li" onClick={closeMenu}>
+            </li>
+            <li  className="links-li" >
               Projects
-            </Link>
-            <Link to='team' className="links-li" onClick={closeMenu}>
+            </li>
+            <li  className="links-li" >
               Team
-            </Link>
+            </li>
 
             <Button />
           </div>
