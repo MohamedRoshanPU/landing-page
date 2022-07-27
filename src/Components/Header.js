@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import "./Header.css";
 import close from "./close.svg";
 import Button from "./Button";
+import { Link } from "react-router-dom";
 
 function Header() {
   const [link, setLinks] = useState(false);
@@ -12,17 +13,29 @@ function Header() {
     setLinks(!link);
   };
 
+  const closeMenu = () =>{
+    setLinks(false)
+  }
+
   return (
     <div>
       <div className="header-main-container">
         <div className="header-container">
-          <div className="company-logo">
+          <Link to='/'><div className="company-logo">
             <img src={logo} alt="logo" />
           </div>
+          </Link>
           <div className={link ? "links active" : "links"}>
-            <li>Features</li>
-            <li>Projects</li>
-            <li>Contact us</li>
+            <Link to='features' className="links-li" onClick={closeMenu}>
+              Features
+            </Link>
+            <Link to='projects' className="links-li" onClick={closeMenu}>
+              Projects
+            </Link>
+            <Link to='team' className="links-li" onClick={closeMenu}>
+              Team
+            </Link>
+
             <Button />
           </div>
           <div className="menu">

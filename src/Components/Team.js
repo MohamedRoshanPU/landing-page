@@ -4,7 +4,7 @@ import right from "./right.svg";
 import left from "./left.svg";
 import { Images } from "./ImageData";
 import Aos from "aos";
-import 'aos/dist/aos.css'
+import "aos/dist/aos.css";
 
 function Team() {
   const [current, setCurrent] = useState(0);
@@ -18,21 +18,19 @@ function Team() {
     setCurrent(current === 0 ? Images.length : current - 1);
   };
 
-  
- Aos.init({duration:1000})
-
+  Aos.init({ duration: 1000 });
 
   return (
     <div>
-      <div className="team-main-container" data-aos = "fade-up">
+      <div className="team-main-container" data-aos="fade-up">
         <div className="team-container">
           <h2>Team Members</h2>
           <div className="team-image">
             {Images.map((image, index) => {
               return (
-                <div className={current === index ? "images active" : "images" }>
+                <div className={current === index ? "images active" : "images"}>
                   {current === index && (
-                    <img src={image.image} alt="Images" key = {index}/>
+                    <img src={image.image} alt="Images" key={index} />
                   )}
                 </div>
               );

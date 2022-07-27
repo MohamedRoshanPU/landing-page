@@ -31,10 +31,11 @@
   align-items: center;
 }
 
-.links li {
+.links-li {
   font-size: 17px;
   font-weight: 600;
   color: white;
+  text-decoration: none;
 }
 
 .menu {
@@ -64,6 +65,7 @@
     top: 10vh;
     opacity: 0;
     transition: all 0.2s ease-in-out;
+    z-index: 22;
   }
 
   .active {
@@ -73,7 +75,7 @@
     background-color: #050427;
   }
 
-  .links li {
+  .links-li {
     margin-block: 40px;
     font-size: 22px;
   }
@@ -110,7 +112,7 @@
     top: 20px;
   }
 
-  .links li {
+  .links-li {
     margin-block: 30px;
     font-size: 16px;
   }
