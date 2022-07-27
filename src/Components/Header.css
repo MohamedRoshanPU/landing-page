@@ -58,7 +58,7 @@
   .links {
     flex-direction: column;
     width: 100%;
-    height: 55vh;
+    height: 90vh;
     justify-content: center;
     align-items: center;
     position: absolute;
@@ -68,7 +68,7 @@
     z-index: 22;
   }
 
-  .active {
+  .active-link {
     opacity: 1;
   }
   .links {

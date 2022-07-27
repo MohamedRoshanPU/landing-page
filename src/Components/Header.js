@@ -25,7 +25,7 @@ function Header() {
             <img src={logo} alt="logo" />
           </div>
           </Link>
-          <div className={link ? "links active" : "links"}>
+          <div className={link ? "links active-link" : "links"}>
             <Link to='/features' className="links-li" onClick={closeMenu}>
               Features
             </Link>
