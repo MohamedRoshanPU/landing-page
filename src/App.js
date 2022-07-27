@@ -2,7 +2,7 @@ import "./App.css";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {Routes, Route } from "react-router-dom";
 import Features from "./Components/Features";
 import Works from "./Components/Works";
 import Team from "./Components/Team";
@@ -10,7 +10,6 @@ import Team from "./Components/Team";
 function App() {
   return (
     <div className="App">
-      <Router>
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -19,7 +18,6 @@ function App() {
           <Route path="/team" element={<Team />} />
         </Routes>
         <Footer />
-      </Router>
     </div>
   );
 }
